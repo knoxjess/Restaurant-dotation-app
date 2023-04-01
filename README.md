@@ -78,24 +78,6 @@ Maps: Finally, we could consider integrating maps into the application. This wou
 By implementing these and other potential developments, we can improve the functionality and user experience of our application and continue to provide our users with a valuable tool for their needs.
 
 
-## Visuals
-
-### Homepage (with example seeds):
-
-![Screenshot 2023-03-30 190829](https://user-images.githubusercontent.com/116929120/228991302-84c956e8-7c88-4ccc-8a22-9243df592bda.png)
-
-
-### Login / Signup toggle:
-![Login](https://user-images.githubusercontent.com/116929120/228991733-990aeeba-8779-4eaf-a220-652221d70774.png)
-![SignUp](https://user-images.githubusercontent.com/116929120/228991764-22a197bc-ec8f-4ebf-94a3-2cf3635852da.png)
-
-### Dashboard:
-![Dashboard](https://user-images.githubusercontent.com/116929120/228991815-d198bd48-0708-4058-8ea8-c795002ca73e.png)
-
-
-### Adding a blog:
-![Screenshot 2023-03-30 191614](https://user-images.githubusercontent.com/116929120/228992069-6a671294-06ff-4b56-8e7c-e13a3c8d0a42.png)
-
 
 ## Licensing
 
