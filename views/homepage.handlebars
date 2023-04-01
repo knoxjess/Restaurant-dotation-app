@@ -1,0 +1,22 @@
+<!-- homepage handlebars -->
+<div class="card-container">
+    <div class="wrapper">
+    {{#if logged_in}}
+        <h2>Thank you for your contribution!</h2>
+    {{else}}
+        <h2>Checkout the grub!</h2>
+    {{/if}}
+        {{#each blogPosts as |post|}}
+        <div class="card-container" id="card-color">
+            <div id="card-color">
+                {{!-- Provider Name --}}
+                <h1 id="name-color">{{post.name}}</h1>
+                {{!-- Food info --}}
+                <p>{{post.content}}<br/></p>
+                {{!-- provider contact --}}
+                <p>{{post.contact}}<br/></p>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

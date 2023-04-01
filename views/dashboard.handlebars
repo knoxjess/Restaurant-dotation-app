@@ -1,0 +1,22 @@
+<!-- Dashboard handlebars -->
+<div class="card-container">
+    <div class="wrapper">
+
+        <button class="btn outline margin-btn"><a href="/dashboard/new-post">Add Blog</a></button>
+        <h1>Checkout your posts...</h1>
+
+		{{#each blogPosts as |post|}}
+		<div class="card-container">
+			<div class="wrapper">
+			{{!-- Food provider name --}}
+				<p>{{post.name}}</p>
+				{{!-- Food Info--}}
+				<p>{{post.content}}<br/></p>
+				{{!-- contact info --}}
+				<p>{{post.contact}}<br/></p>
+			</div>
+		</div>
+		{{/each}}
+    </div>
+</div>
+
